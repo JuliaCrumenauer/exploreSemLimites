@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F9F4FB;
+
+    padding: 0 33px 309px;
+
+    text-align: center;
+}
+
+#section2 {
+    display: flex;
+    width: 430px;
+    height: 1242px;
+    padding: 52.972px 91.874px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8.277px;
+    flex-shrink: 0;
+
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+
+  
+}
+
+.card {
+    display: flex;
+    padding: 26.486px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33.108px;
+    align-self: stretch;
+
+    border-radius: 19.865px;
+    background: #FFF;
+    box-shadow: 0px 3.31077px 13.24308px 0px rgba(0, 0, 0, 0.25);
+}
+
