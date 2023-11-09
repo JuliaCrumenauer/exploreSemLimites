@@ -21,6 +21,10 @@ body {
     flex-shrink: 0;
 }
 
+img {
+    width: 100%;
+}
+
 #home h1 {
     color: #B52184;
 
@@ -67,36 +71,77 @@ body {
 
 #section2 {
     
+
+    height: 77rem;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+
     display: flex;
-    width: 430px;
-    height: 1242px;
-    padding: 52.972px 91.874px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8.277px;
+
+    gap: 49px;
+
+   /* display: flex;
+    width: 43.0rem;
+    height: 124.2rem;
+    padding: 5.2972rem 9.1874rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8277rem;
     flex-shrink: 0;
 
-    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%); */
   
 }
 
 .card {
+
+
+    width: 22rem;
+    height: 21rem;
+    background: white;
+    border-radius: 1.2rem;
+
+    padding: 1.6rem;
+
     display: flex;
-    padding: 26.486px;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    //gap: 1rem;
+
+    /*width: 35.2rem;
+    height: 33.794464rem;
+
+    display: flex;
+    padding: 2.6486rem;
     flex-direction: column;
     align-items: flex-start;
-    gap: 33.108px;
+    //gap: 3.3108rem;
     align-self: stretch;
 
-    border-radius: 19.865px;
+    border-radius: 1.9865rem;
     background: #FFF;
-    box-shadow: 0px 3.31077px 13.24308px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 3.31077px 13.24308px 0px rgba(0, 0, 0, 0.25); */
 
-    
 }
 
 .card h2 {
+
+    font-size: 1.8rem;
+    color: #B52184;
+    font-style: normal;
+    font-weight: 900;
+
+    //top: 12px;
+    position: relative;
+
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+
+    /*
     color: #B52184;
 
     leading-trim: both;
@@ -107,11 +152,22 @@ body {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+
+    margin: 3rem 0 2rem;*/
+
 }
 
 .card p {
 
-    width: 265.689px;
+
+    font-size: 1rem;
+    color: #312D64;
+    font-style: normal;
+    font-weight: 600;
+
+    margin-bottom: 20px;
+
+   /* width: 26.5689rem;
 
     color: #312D64;
 
@@ -123,12 +179,17 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+
+    margin-bottom: 2.649rem; */
     
 }
 
 .card img {
-    width: 80px;
-    height: 80px;
+    /*width: 80px;
+    height: 80px;*/
 
-    margin-bottom: 33.11px;
+    width: 50px;
+    height: 50px;
+
+   // margin-bottom: 33.11px;
 }
