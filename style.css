@@ -5,12 +5,20 @@
     font-family: Mulish;
 }
 
+:root {
+    font-size: 62.5%; /* 10px */
+}
+
 body {
     background: #F9F4FB;
 
     padding: 0 33px 309px;
 
     text-align: center;
+
+    width: 430px;
+    height: 679px;
+    flex-shrink: 0;
 }
 
 #home h1 {
@@ -18,7 +26,7 @@ body {
 
     text-align: center;
     font-family: Mulish;
-    font-size: 32px;
+    font-size: 3.2rem;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -32,13 +40,33 @@ body {
 
     text-edge: cap;
     font-family: Mulish;
-    font-size: 20px;
+    font-size: 2.0rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+
+    margin-bottom: 3.5rem;
+}
+
+#img_home_1 {
+    width: 364px;
+    height: 370px;
+    flex-shrink: 0;
+
+    margin-bottom: 17px;
+
+}
+
+#img_home_2 {
+    width: 58.587px;
+    height: 105px;
+    flex-shrink: 0;
+
+    margin-bottom: 93px;
 }
 
 #section2 {
+    
     display: flex;
     width: 430px;
     height: 1242px;
@@ -64,6 +92,8 @@ body {
     border-radius: 19.865px;
     background: #FFF;
     box-shadow: 0px 3.31077px 13.24308px 0px rgba(0, 0, 0, 0.25);
+
+    
 }
 
 .card h2 {
@@ -73,7 +103,7 @@ body {
 
     text-edge: cap;
     font-family: Mulish;
-    font-size: 29.219px;
+    font-size: 2.9219rem;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -82,15 +112,23 @@ body {
 .card p {
 
     width: 265.689px;
-    
+
     color: #312D64;
 
     leading-trim: both;
 
     text-edge: cap;
     font-family: Mulish;
-    font-size: 16.042px;
+    font-size: 1.6042rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+
+    margin-bottom: 33.11px;
 }
