@@ -66,13 +66,13 @@ img {
     height: 105px;
     flex-shrink: 0;
 
-    margin-bottom: 93px;
+    margin-bottom: 45px;
 }
 
 #section2 {
     
 
-    height: 77rem;
+    height: 116rem;
     background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 
     display: flex;
@@ -81,26 +81,14 @@ img {
     align-items: center;
 
     gap: 49px;
-
-   /* display: flex;
-    width: 43.0rem;
-    height: 124.2rem;
-    padding: 5.2972rem 9.1874rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.8277rem;
-    flex-shrink: 0;
-
-    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%); */
   
 }
 
 .card {
 
 
-    width: 22rem;
-    height: 21rem;
+    width: 30rem;
+    height: 34rem;
     background: white;
     border-radius: 1.2rem;
 
@@ -112,75 +100,35 @@ img {
 
     //gap: 1rem;
 
-    /*width: 35.2rem;
-    height: 33.794464rem;
-
-    display: flex;
-    padding: 2.6486rem;
-    flex-direction: column;
-    align-items: flex-start;
-    //gap: 3.3108rem;
-    align-self: stretch;
-
-    border-radius: 1.9865rem;
-    background: #FFF;
-    box-shadow: 0px 3.31077px 13.24308px 0px rgba(0, 0, 0, 0.25); */
-
 }
 
 .card h2 {
 
-    font-size: 1.8rem;
+    font-size: 2.9rem;
     color: #B52184;
     font-style: normal;
     font-weight: 900;
 
-    //top: 12px;
     position: relative;
 
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
-
-    /*
-    color: #B52184;
-
-    leading-trim: both;
-
-    text-edge: cap;
-    font-family: Mulish;
-    font-size: 2.9219rem;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-
-    margin: 3rem 0 2rem;*/
 
 }
 
 .card p {
 
 
-    font-size: 1rem;
+    font-size: 1.6rem;
     color: #312D64;
     font-style: normal;
     font-weight: 600;
 
     margin-bottom: 20px;
 
-   /* width: 26.5689rem;
+    text-align: left;
 
-    color: #312D64;
-
-    leading-trim: both;
-
-    text-edge: cap;
-    font-family: Mulish;
-    font-size: 1.6042rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-
-    margin-bottom: 2.649rem; */
+    margin-botton: 3.3rem;
     
 }
 
@@ -188,8 +136,10 @@ img {
     /*width: 80px;
     height: 80px;*/
 
-    width: 50px;
-    height: 50px;
+    width: 7.0rem;
+    height: 7.0rem;
 
-   // margin-bottom: 33.11px;
+    margin-top: 2.6rem;
+    margin-botton: 3.3rem;
+
 }
