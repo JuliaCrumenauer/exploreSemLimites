@@ -143,3 +143,145 @@ img {
     margin-botton: 3.3rem;
 
 }
+
+#section3 {
+    margin-top: 7.8rem;
+    margin-botton: 4.3rem;
+
+    gap: 4rem;
+}
+
+#section3 h1 {
+    color: #B52184;
+
+    font-family: Mulish;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+    text-align: left;
+
+    margin-bottom: 4.3rem;
+
+}
+
+.box {
+    display: flex;
+    width: 348px;
+    padding: 12px 16px 12px 14px;
+    align-items: center;
+    gap: 12px;
+
+    border-radius: 16px;
+    border: 1.5px solid #312D64;
+
+    margin: 2.4rem 0 2.4rem 0;
+ 
+}
+
+.box p {
+    color: #312D64;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 16px */
+}
+
+.box img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+#boxmsg {
+    display: flex;
+    width: 348px;
+    padding: 12px 16px 16px 16px;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 16px;
+    border: 1.5px solid #312D64;
+}
+
+#boxmsg p {
+    height: 98px;
+    flex: 1 0 0;
+
+    color: #312D64;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+
+    text-align: left;
+}
+
+#button {
+    display: inline-flex;
+    height: 45px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 16px;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+
+    /*margin-top: 2.4rem;
+
+    margin-button: 6.5rem;*/
+
+   // margin: 2.4rem 23.6rem 6.5rem 4.3rem; 
+
+   margin: 2.4rem 19.7rem 0 0.3rem;
+
+    
+}
+
+#button p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    text-transform: capitalize;
+}
+
+footer {
+    display: flex;
+    
+    height: 7.8rem;
+    padding: 1.6rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+
+    margin-top: 6.5rem;
+}
+
+footer p {
+    color: #FFF;
+
+    text-align: center;
+    leading-trim: both;
+
+    text-edge: cap;
+    font-family: Mulish;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
