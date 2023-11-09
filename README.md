@@ -1,6 +1,10 @@
-Projeto em andamento.
+- Em desenvolvimento
 
-#Demonstração
+Desafio proposto durante curso da Rocketseat.
 
-https://github.com/JuliaCrumenauer/exploreSemLimites/assets/67925313/70ce1628-e302-4a47-860c-5daa3e36d3d1
+Um dos pontos desse desafio era trabalhar com a regra de Mobile First. 
+
+<h2>Demonstração:</h2>
+
+https://github.com/JuliaCrumenauer/exploreSemLimites/assets/67925313/4198a064-fcb2-4c4e-ad77-e296e80c532c
 
