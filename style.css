@@ -2,29 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Mulish;
+    font-family: Mulish;    
 }
 
 :root {
     font-size: 62.5%; /* 10px */
 }
 
+
+
 body {
     background: #F9F4FB;
 
     padding: 0 33px 309px;
 
-    text-align: center;
+    //text-align: center; -- acho que isso tava atrapalhando pra mexer na posição das imagens da 1 parte
 
     //width: 430px;
     height: 679px;
     flex-shrink: 0;
 
     min-width: 43rem;
+    
 }
+
+
 
 img {
     width: 100%;
+}
+
+#home {
+    //display: flex;
+
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+
 }
 
 #home h1 {
@@ -55,16 +69,19 @@ img {
 }
 
 #img_home_1 {
-    width: 364px;
+    //width: 364px;
     height: 370px;
     flex-shrink: 0;
 
+    
+
     margin-bottom: 17px;
+    
 
 }
 
 #img_home_2 {
-    width: 58.587px;
+    //width: 58.587px;
     height: 105px;
     flex-shrink: 0;
 
@@ -73,8 +90,9 @@ img {
 
 #section2 {
     
-
-    height: 116rem;
+    width: 100%;
+    height: 100%;
+    //height: 116rem;
     background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 
     display: flex;
@@ -189,9 +207,7 @@ img {
     border-radius: 1.6rem;
     border: 1.5px solid #312D64;
 
-    //margin: 2.4rem 0 2.4rem 2.3rem;
-    //margin: 2rem 0 2rem 3rem;
- 
+
 }
 
 .box p {
@@ -251,11 +267,7 @@ img {
     border-radius: 1.6rem;
     background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 
-    /*margin-top: 2.4rem;
 
-    margin-button: 6.5rem;*/
-
-   // margin: 2.4rem 23.6rem 6.5rem 4.3rem; 
 
    margin: 2.4rem 20rem 0 4.3rem;
 
@@ -302,3 +314,52 @@ footer p {
     font-weight: 600;
     line-height: normal;
 }
+
+@media (min-width: 1140px) {
+
+main {
+    //justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 6.5rem 3.2rem;
+    display: flex;
+}
+
+#home {
+  
+    display: flex;
+    width: 100%;
+    
+}
+
+
+#img_home_1 {
+
+    
+}
+
+#home h1 {
+    
+    text-align: left;
+}
+
+#home h3 {
+    
+    text-align: left;
+}
+
+#img_home_2 {
+  
+    width: 5.8rem;
+    
+}
+
+main .card {
+    width: 40%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+}
+
