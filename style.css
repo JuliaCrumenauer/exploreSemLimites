@@ -280,9 +280,7 @@ img {
     flex-shrink: 0;
 
     border-radius: 1.6rem;
-    //background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
-
-    background: blue;
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 
    margin: 2.4rem 20rem 0 0;
 
@@ -298,6 +296,49 @@ img {
     font-weight: 700;
     line-height: 2.4rem; /* 171.429% */
     text-transform: capitalize;
+}
+
+fieldset {
+    border: none;
+
+    display: flex;
+    
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.fieldset-wrapper {
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    //margin: 0 680px 20px 40px;
+
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.input-wrapper input {
+    display: flex;
+width: 592px;
+padding: 12px 16px 12px 14px;
+align-items: center;
+border: none;
+background-color: #F9F4FB;
+}
+
+.input-wrapper textarea {
+    display: flex;
+width: 592px;
+padding: 12px 16px 12px 14px;
+align-items: center;
+border: none;
+background-color: #F9F4FB;
+    
 }
 
 footer {
@@ -360,7 +401,7 @@ footer p {
     }
 
     #section3 {
-        display: grid;
+      /*  display: grid;
        
         grid-template-areas: "A B";
         
@@ -386,7 +427,7 @@ footer p {
     #imgCont {
         
         
-    }
+    } */
 
     .box {
         display: flex;
@@ -417,7 +458,7 @@ main {
 }
 
 #home {
-    width: 1440px;
+    //width: 1440px;
 //height: 836px;
 flex-shrink: 0;
 
@@ -462,49 +503,32 @@ flex-shrink: 0;
 }
 
 #section2 {
-    width: 1440px;
+    //width: 1440px;
 }
 
 #section3 {
-    width: 1440px;
-}
-
-footer {
-        width: 1440px;
-}
-
-
+    //width: 1440px;
+    
+    display: flex;
+    align-items: center;
+    gap: 9.2rem;
+    padding: 0;
+    height: 62.2rem;
+    margin: 0 auto;
+    background: url(./assets/11976.svg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 fieldset {
-    border: none;
-
-    display: flex;
-    
-
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
+    margin-right: 70.0rem;
 }
 
-.fieldset-wrapper {
-    gap: 18px;
-    display: flex;
-    flex-direction: column;
-    //margin: 0 680px 20px 40px;
 
-   
-    justify-content: center;
-    align-items: center;
-    
+footer {
+        //width: 1440px;
 }
 
-.input-wrapper input {
-    display: flex;
-width: 592px;
-padding: 12px 16px 12px 14px;
-align-items: center;
-border: none;
-background-color: #F9F4FB;
+
 }
+
