@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Mulish;    
+    
 }
 
 :root {
@@ -173,8 +174,6 @@ img {
     margin-top: 7.8rem;
     margin-botton: 4.3rem;
 
-    gap: 2rem;
-
     display: flex;
     
 
@@ -212,6 +211,7 @@ img {
     display: flex;
     //width: 34.8rem;
     width: 30rem;
+    height: 5rem;
     padding: 1.2rem 1.6rem 1.2rem 1.4rem;
     align-items: center;
     gap: 1.2rem;
@@ -238,15 +238,18 @@ img {
     flex-shrink: 0;
 }
 
-#boxmsg {
+#mensagem {
     display: flex;
     width: 30rem;
+    height: 10rem;
     padding: 1.2rem 1.6rem 1.6rem 1.6rem;
     align-items: flex-start;
     gap: 1rem;
 
     border-radius: 1.6rem;
     border: 1.5px solid #312D64;
+
+    background-color: #F9F4FB;
 
     //margin: 2rem 0 2rem 3rem;
 }
@@ -277,11 +280,11 @@ img {
     flex-shrink: 0;
 
     border-radius: 1.6rem;
-    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+    //background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 
+    background: blue;
 
-
-   margin: 2.4rem 20rem 0 4.3rem;
+   margin: 2.4rem 20rem 0 0;
 
     
 }
@@ -359,19 +362,24 @@ footer p {
     #section3 {
         display: grid;
        
-        background: orange;
-        grid-template-areas: "A B"
+        grid-template-areas: "A B";
+        
+        
     
     }
 
     #section3grid {
         grid-area: A;
+        align-items: left;
+        
+        
     }
 
     #imgContato {
         grid-area: B;
         width: 644px;
         height: 612px;
+        
         
     }
 
@@ -382,15 +390,20 @@ footer p {
 
     .box {
         display: flex;
-        align-items: left;
+        align-items: right;
         text-align: left;
         flex-direction: left;
+      
+        margin-top: 12px;
+    }
+
+    #boxmsg {
+        margin: 2.4rem 20rem 0 0;
+        
     }
 
 
 }
-
-
 
 @media (min-width: 1140px) {
 
@@ -400,18 +413,41 @@ main {
     flex-wrap: wrap;
     padding: 6.5rem 3.2rem;
    // display: flex;
+   
+}
+
+#home {
+    width: 1440px;
+//height: 836px;
+flex-shrink: 0;
+
 }
 
 
-
 #img_home_1 {
-
-    
+    //margin-left: 320px; esse num fica bom sem os códigos de baixo
+    display: flex;
+    margin-left: 720px;
+    width: 519.36px;
+height: 532.357px;
+flex-shrink: 0;
 }
 
 #home h1 {
     
     text-align: left;
+
+    //margin: 109px 312px 777px 451px;
+
+    margin-top: -250px; //to muito feliz que isso aqui funcionou
+    
+    
+   font-family: Mulish;
+   font-size: 58.287px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+    
 }
 
 #home h3 {
@@ -425,7 +461,50 @@ main {
     
 }
 
+#section2 {
+    width: 1440px;
+}
+
+#section3 {
+    width: 1440px;
+}
+
+footer {
+        width: 1440px;
+}
 
 
 }
 
+fieldset {
+    border: none;
+
+    display: flex;
+    
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.fieldset-wrapper {
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    //margin: 0 680px 20px 40px;
+
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.input-wrapper input {
+    display: flex;
+width: 592px;
+padding: 12px 16px 12px 14px;
+align-items: center;
+border: none;
+background-color: #F9F4FB;
+}
