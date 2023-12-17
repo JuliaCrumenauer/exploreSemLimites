@@ -282,9 +282,8 @@ img {
     border-radius: 1.6rem;
     background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 
-   margin: 2.4rem 20rem 0 0;
+    margin: 2.4rem 20rem 0 5rem;
 
-    
 }
 
 #button p {
@@ -320,6 +319,10 @@ fieldset {
     justify-content: center;
     align-items: center;
     
+}
+
+.fieldset-wrapper h1 {
+margin: 2.4rem 20rem 0 16rem;
 }
 
 .input-wrapper input {
