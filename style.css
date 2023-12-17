@@ -3,43 +3,27 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Mulish;    
-    
 }
 
 :root {
     font-size: 62.5%; /* 10px */
 }
 
-
-
 body {
     background: #F9F4FB;
-
     padding: 0 33px 309px;
-
-    //text-align: center; -- acho que isso tava atrapalhando pra mexer na posição das imagens da 1 parte
-
-    //width: 430px;
     height: 679px;
     flex-shrink: 0;
-
     min-width: 43rem;
-    
 }
-
-
 
 img {
     width: 100%;
 }
 
 #home {
-    //display: flex;
-
     display: flex;
     flex-direction: column;
-    //align-items: center;
-
 }
 
 #home h1 {
@@ -70,49 +54,33 @@ img {
 }
 
 #img_home_1 {
-    //width: 364px;
     height: 370px;
     flex-shrink: 0;
-
-    
-
     margin-bottom: 17px;
-    
-
 }
 
 #img_home_2 {
-    //width: 58.587px;
     height: 105px;
     flex-shrink: 0;
-
     margin-bottom: 45px;
 }
 
 #section2 {
-    
     width: 100%;
     height: 100%;
-    //height: 116rem;
     background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 
     display: grid;
-    
-
     
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     gap: 49px;
-
     padding: 4rem;
-  
 }
 
 .card {
-
-
     width: 30rem;
     height: 34rem;
     background: white;
@@ -123,13 +91,9 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
-    //gap: 1rem;
-
 }
 
 .card h2 {
-
     font-size: 2.9rem;
     color: #B52184;
     font-style: normal;
@@ -139,48 +103,31 @@ img {
 
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
-
 }
 
 .card p {
-
-
     font-size: 1.6rem;
     color: #312D64;
     font-style: normal;
     font-weight: 600;
-
-    margin-bottom: 20px;
-
     text-align: left;
-
     margin-botton: 3.3rem;
-    
 }
 
 .card img {
-    /*width: 80px;
-    height: 80px;*/
-
     width: 7.0rem;
     height: 7.0rem;
-
     margin-top: 2.6rem;
     margin-botton: 3.3rem;
-
 }
 
-#section3 {
+#contact {
     margin-top: 7.8rem;
     margin-botton: 4.3rem;
-
     display: flex;
-    
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 #imgContato {
@@ -189,7 +136,7 @@ img {
     
 }
 
-#section3 h1 {
+#contact h1 {
     color: #B52184;
 
     font-family: Mulish;
@@ -197,17 +144,11 @@ img {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-
     text-align: left;
-
     margin-bottom: 4.3rem;
-
-    
-
 }
 
 .box {
-
     display: flex;
     //width: 34.8rem;
     width: 30rem;
@@ -218,8 +159,6 @@ img {
 
     border-radius: 1.6rem;
     border: 1.5px solid #312D64;
-
-
 }
 
 .box p {
@@ -250,8 +189,6 @@ img {
     border: 1.5px solid #312D64;
 
     background-color: #F9F4FB;
-
-    //margin: 2rem 0 2rem 3rem;
 }
 
 #boxmsg p {
@@ -283,7 +220,6 @@ img {
     background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 
     margin: 2.4rem 20rem 0 5rem;
-
 }
 
 #button p {
@@ -299,48 +235,40 @@ img {
 
 fieldset {
     border: none;
-
     display: flex;
-    
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 }
 
 .fieldset-wrapper {
     gap: 18px;
     display: flex;
     flex-direction: column;
-    //margin: 0 680px 20px 40px;
-
-   
     justify-content: center;
     align-items: center;
-    
 }
 
 .fieldset-wrapper h1 {
-margin: 2.4rem 20rem 0 16rem;
+    margin: 2.4rem 20rem 0 16rem;
 }
 
 .input-wrapper input {
     display: flex;
-width: 592px;
-padding: 12px 16px 12px 14px;
-align-items: center;
-border: none;
-background-color: #F9F4FB;
+    width: 592px;
+    padding: 12px 16px 12px 14px;
+    align-items: center;
+    border: none;
+    background-color: #F9F4FB;
 }
 
 .input-wrapper textarea {
     display: flex;
-width: 592px;
-padding: 12px 16px 12px 14px;
-align-items: center;
-border: none;
-background-color: #F9F4FB;
+    width: 592px;
+    padding: 12px 16px 12px 14px;
+    align-items: center;
+    border: none;
+    background-color: #F9F4FB;
     
 }
 
@@ -378,9 +306,6 @@ footer p {
 @media only screen and (min-width: 1400px) {
     #section2 {
         width: 100%;
-        //height: 570px;
-        
-      
         align-items: center;
         justify-content: center;
 
@@ -388,110 +313,62 @@ footer p {
         grid-template-columns: 200px 380px 200px;
 
         gap: 60px;
-
         padding: 4rem;
 
         justify-items: center;
-
-        
     }
 
     .card { 
         display: grid;
-        
         background: white;
-        
     }
 
-    #section3 {
-      /*  display: grid;
-       
-        grid-template-areas: "A B";
-        
-        
-    
-    }
-
-    #section3grid {
-        grid-area: A;
-        align-items: left;
-        
-        
-    }
-
-    #imgContato {
-        grid-area: B;
-        width: 644px;
-        height: 612px;
-        
-        
-    }
-
-    #imgCont {
-        
-        
-    } */
+    #contact {
 
     .box {
         display: flex;
         align-items: right;
         text-align: left;
         flex-direction: left;
-      
         margin-top: 12px;
     }
 
     #boxmsg {
         margin: 2.4rem 20rem 0 0;
-        
     }
-
 
 }
 
 @media (min-width: 1140px) {
 
 main {
-    //justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 6.5rem 3.2rem;
-   // display: flex;
-   
 }
 
 #home {
-    //width: 1440px;
-//height: 836px;
-flex-shrink: 0;
-
+    flex-shrink: 0;
 }
 
 
 #img_home_1 {
-    //margin-left: 320px; esse num fica bom sem os códigos de baixo
     display: flex;
     margin-left: 720px;
     width: 519.36px;
-height: 532.357px;
-flex-shrink: 0;
+    height: 532.357px;
+    flex-shrink: 0;
 }
 
 #home h1 {
-    
     text-align: left;
-
-    //margin: 109px 312px 777px 451px;
-
-    margin-top: -250px; //to muito feliz que isso aqui funcionou
-    
-    
-   font-family: Mulish;
-   font-size: 58.287px;
-   font-style: normal;
-   font-weight: 900;
-   line-height: normal;
-    
+    margin-top: -250px; 
+        
+    font-family: Mulish;
+    font-size: 58.287px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
 }
 
 #home h3 {
@@ -505,13 +382,7 @@ flex-shrink: 0;
     
 }
 
-#section2 {
-    //width: 1440px;
-}
-
-#section3 {
-    //width: 1440px;
-    
+#contact {
     display: flex;
     align-items: center;
     gap: 9.2rem;
@@ -526,12 +397,6 @@ flex-shrink: 0;
 fieldset {
     margin-right: 70.0rem;
 }
-
-
-footer {
-        //width: 1440px;
-}
-
 
 }
 
